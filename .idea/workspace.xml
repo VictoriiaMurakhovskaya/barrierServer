@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="180204fa-1a78-46e3-9944-c16f7c024a3e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Git/thrift-server" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1tUfnXbxDuBQTIyKZqU8nFY5gkX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/barrier_server" />
+    <property name="last_opened_file_path" value="F:/Arch_0406/IdeaProjects/SocketsAuth/SocketsAuth.iml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JaProj\sri-06-example\src\main\resources\thrift" />
+      <recent name="C:\JaProj\sri-06-example\target\classes\thrift" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JaProj\sri-06-example\target\generated-sources\thrift\barrier_server" />
+      <recent name="C:\JaProj\sri-06-example\target\generated-sources\thrift\barrier\java" />
+      <recent name="C:\JaProj\sri-06-example\target\generated-sources\thrift\edu\pja\sri\lab06" />
+      <recent name="G:\Sync\_school\_Materialy\SRI\zadania\zad6-thrift\sri-06-example\src\main\resources\thrift" />
+      <recent name="G:\Sync\_school\_Materialy\SRI\zadania\zad6-thrift\sri-06-example\thriftCompiler" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="barrier.java.server" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="barrier_server.server" />
+      <recent name="edu.pja.sri.lab06.server" />
+      <recent name="edu.pja.sri.lab06.client" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestPySocket">
+    <configuration name="BarrierServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="barrier_server.server.BarrierServer" />
+      <module name="barrier_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="barrier_server.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPySocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPySocket" />
+      <module name="barrier_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testBarrierClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testBarrierClient" />
+      <module name="barrier_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="barrier_server.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testBarrierSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testBarrierSQL" />
+      <module name="barrier_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BarrierServer" />
+      <item itemvalue="Application.testBarrierSQL" />
+      <item itemvalue="Application.testBarrierClient" />
+      <item itemvalue="Application.TestPySocket" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestPySocket" />
+        <item itemvalue="Application.testBarrierClient" />
+        <item itemvalue="Application.testBarrierSQL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="180204fa-1a78-46e3-9944-c16f7c024a3e" name="Default Changelist" comment="" />
+      <changelist id="" name="All" comment="" />
+      <created>1622828757821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622828757821</updated>
+      <workItem from="1622828759150" duration="459000" />
+      <workItem from="1622829245909" duration="2358000" />
+      <workItem from="1623932588952" duration="795000" />
+      <workItem from="1623933950149" duration="76000" />
+      <workItem from="1623935056453" duration="24000" />
+      <workItem from="1623935110733" duration="5000" />
+      <workItem from="1623935684369" duration="20000" />
+      <workItem from="1623935962646" duration="684000" />
+      <workItem from="1623947692488" duration="2203000" />
+      <workItem from="1623951861572" duration="70000" />
+      <workItem from="1623953506509" duration="2574000" />
+      <workItem from="1623956339453" duration="7277000" />
+      <workItem from="1623964036260" duration="3578000" />
+      <workItem from="1624123739224" duration="19508000" />
+      <workItem from="1624287707855" duration="3886000" />
+      <workItem from="1624292227351" duration="236000" />
+      <workItem from="1624292769737" duration="1960000" />
+      <workItem from="1624303397714" duration="1125000" />
+      <workItem from="1624311276443" duration="836000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../Git/thrift-server" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.apache.thrift.TApplicationException" package="org.apache.thrift" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
