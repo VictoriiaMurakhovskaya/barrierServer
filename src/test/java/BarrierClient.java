@@ -1,0 +1,2 @@
+public class BarrierClient {
+}

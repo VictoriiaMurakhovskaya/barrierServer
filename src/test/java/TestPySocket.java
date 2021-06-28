@@ -9,16 +9,16 @@ public class TestPySocket {
     public static void main(String[] args) {
         try {
             try {
-                // адрес - локальный хост, порт - 9091, такой же как у сервера
-                clientSocket = new Socket("192.168.3.20", 9091); // этой строкой мы запрашиваем
+                // адрес - IP адрес сервера преграды, порт - 9091, такой же как у сервера
+                clientSocket = new Socket("192.168.3.20", 9091); // создание экземпляра клиента
 
-                // писать туда же
+                // создание экземпляра объекта, "пишущего" в сокет
                 out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
 
-                // не напишет в консоль
-                out.write("open"); // отправляем сообщение на сервер
+                // отправлка сообщения на сервер
+                out.write("open");
                 out.flush();
-            } finally { // в любом случае необходимо закрыть сокет и потоки
+            } finally { // закрытие сокета и потоков
                 System.out.println("Клиент был закрыт...");
                 clientSocket.close();
                 out.close();

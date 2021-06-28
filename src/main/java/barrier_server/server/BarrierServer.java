@@ -43,7 +43,6 @@ public class BarrierServer {
 	      TServerTransport serverTransport = new TServerSocket(9090);
 	      TServer server = new TSimpleServer(new Args(serverTransport).processor(processor));
 
-	      System.out.println("Starting the simple server...");
 	      server.serve();
 	    } catch (Exception e) {
 	      e.printStackTrace();
