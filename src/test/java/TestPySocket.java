@@ -15,7 +15,7 @@ public class TestPySocket {
                 // создание экземпляра объекта, "пишущего" в сокет
                 out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
 
-                // отправлка сообщения на сервер
+                // отправка сообщения на сервер
                 out.write("open");
                 out.flush();
             } finally { // закрытие сокета и потоков

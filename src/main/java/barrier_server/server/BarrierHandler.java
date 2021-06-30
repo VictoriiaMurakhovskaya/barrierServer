@@ -36,6 +36,8 @@ public class BarrierHandler implements BarrierService.Iface {
             System.out.printf("Defined distance %d\n", (int) barrierDistance);
             if (barrierDistance < 50){
                 System.out.printf("Barrier with ID %d is in %f meters", barrier.id, barrierDistance);
+                BarrierOpener opener = new BarrierOpener();
+                opener.open();
                 return true;
             }
         }
