@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180204fa-1a78-46e3-9944-c16f7c024a3e" name="Default Changelist" comment="" />
+    <list default="true" id="180204fa-1a78-46e3-9944-c16f7c024a3e" name="Default Changelist" comment="Reload">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/db/barriers.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/db/barriers.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/barrier_server/server/BarrierHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/barrier_server/server/BarrierHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Git/thrift-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -61,10 +65,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\JaProj\sri-06-example\target\generated-sources\thrift\barrier_server" />
+      <recent name="C:\JaProj\sri-06-example\target\classes\thrift" />
       <recent name="C:\JaProj\sri-06-example\target\generated-sources\thrift\barrier\java" />
       <recent name="C:\JaProj\sri-06-example\target\generated-sources\thrift\edu\pja\sri\lab06" />
       <recent name="G:\Sync\_school\_Materialy\SRI\zadania\zad6-thrift\sri-06-example\src\main\resources\thrift" />
-      <recent name="G:\Sync\_school\_Materialy\SRI\zadania\zad6-thrift\sri-06-example\thriftCompiler" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="barrier.java.server" />
@@ -84,7 +88,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestPySocket">
+  <component name="RunManager" selected="Application.BarrierServer">
     <configuration name="BarrierServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="barrier_server.server.BarrierServer" />
       <module name="barrier_java" />
@@ -125,17 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,6 +148,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BarrierServer" />
         <item itemvalue="Application.TestPySocket" />
         <item itemvalue="Application.testBarrierClient" />
         <item itemvalue="Application.testBarrierSQL" />
@@ -165,7 +159,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="180204fa-1a78-46e3-9944-c16f7c024a3e" name="Default Changelist" comment="" />
-      <changelist id="" name="All" comment="" />
       <created>1622828757821</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -188,8 +181,28 @@
       <workItem from="1624292227351" duration="236000" />
       <workItem from="1624292769737" duration="1960000" />
       <workItem from="1624303397714" duration="1125000" />
-      <workItem from="1624311276443" duration="836000" />
+      <workItem from="1624311276443" duration="1235000" />
+      <workItem from="1624394969795" duration="3727000" />
+      <workItem from="1624484882998" duration="1363000" />
+      <workItem from="1624719667872" duration="105000" />
+      <workItem from="1624879179796" duration="679000" />
+      <workItem from="1624888706282" duration="632000" />
+      <workItem from="1624891534197" duration="555000" />
+      <workItem from="1624897742539" duration="78000" />
+      <workItem from="1624898283713" duration="3068000" />
+      <workItem from="1624906225590" duration="563000" />
+      <workItem from="1625029234252" duration="657000" />
+      <workItem from="1625030340994" duration="1715000" />
+      <workItem from="1625032434907" duration="1476000" />
     </task>
+    <task id="LOCAL-00001" summary="Reload">
+      <created>1624897777815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624897777815</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +224,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../Git/thrift-server" />
     </ignored-roots>
+    <MESSAGE value="Reload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reload" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,6 +234,11 @@
           <properties class="org.apache.thrift.TApplicationException" package="org.apache.thrift" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/barrier_server/server/BarrierHandler.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

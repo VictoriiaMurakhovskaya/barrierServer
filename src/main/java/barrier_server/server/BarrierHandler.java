@@ -21,17 +21,21 @@ public class BarrierHandler implements BarrierService.Iface {
         ArrayList<Barrier> allowedBarriers;
         double barrierDistance;
 
-        System.out.printf("Open barrier id:%s", id);
+        System.out.printf("Open barrier from :%s\n", id);
         BarrierSQL bsql = new BarrierSQL();
 
         ArrayList<Integer> permittedBarriers = bsql.getPermittedBarriers(id);
         allowedBarriers = bsql.getBarriersList(permittedBarriers);
 
+        System.out.printf("Permitted barriers for users %s\n", id);
+        System.out.printf("Found %d\n", allowedBarriers.size());
+
         for (Barrier barrier:allowedBarriers
              ) {
             barrierDistance = defineDistance(longitude, latitude, barrier.longitude, barrier.latitude);
+            System.out.printf("Defined distance %d\n", (int) barrierDistance);
             if (barrierDistance < 50){
-                System.out.printf("%n Barrier with ID %d is in %f meters", barrier.id, barrierDistance);
+                System.out.printf("Barrier with ID %d is in %f meters", barrier.id, barrierDistance);
                 return true;
             }
         }
